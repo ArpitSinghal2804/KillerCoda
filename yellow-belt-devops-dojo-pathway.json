@@ -1,0 +1,61 @@
+{
+  "title": "Yellow Belt DevOps Dojo",
+  "description": "Learning DevOps, for real.",
+  "courses": [
+    {
+      "title": "Welcome",
+      "description": "Getting started with the Yellow Belt DevOps Dojo: understanding the back story, setting up your environment.",
+      "course_id": "welcome"
+    },
+    {
+      "title": "Leading Change",
+      "description": "Learn about the importance of Leading Change in DevOps Transformations. A large factor in the success of DevOps transformations is driven by the organization's ability to empower people to lead change at the different levels in the organization.",
+      "course_id": "leading-change"
+    },    
+    {
+      "title": "Version Control",
+      "description": "Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.",
+      "course_id": "version-control"
+    },
+    {
+      "title": "Continuous Integration",
+      "description": "The process of merging work from all the developers in a team into the master branch as and when required.",
+      "course_id": "continuous-integration"
+    },
+    {
+      "title": "Value Stream Mapping",
+      "description": "Optimize your processes for value delivery and speed.",
+      "course_id": "value-stream-mapping"
+    },
+    {
+      "title": "DevOps Kaizen",
+      "description": "Learn how DevOps Kaizen events can be used to help you and your team continuously improve your process.",
+      "course_id": "devops-kaizen"
+    },
+    {
+      "title": "Test Driven Development",
+      "description": "The flow by which one start to create tests first, verify that they fail, then code to make them pass.",
+      "course_id": "test-driven-development"
+    },
+    {
+      "title": "Continuous Testing",
+      "description": "Continuous Testing is the process of executing automated tests from a continuous integration/delivery pipeline to get feedback on quality of the software being built as rapidly as possible.",
+      "course_id": "continuous-testing"
+    },
+    {
+      "title": "Shift Left on Security",
+      "description": "Security must be considered from the beginning and continuously assessed.",
+      "course_id": "shift-security-left"
+    },
+    {
+      "title": "Post Incident Practices",
+      "description": "Learn how to establish a Safety Culture, conduct blameless post-mortems and create a “code of conduct” to help your team manage incidents in all phases of their life cycle",
+      "course_id": "post-incident-practices"
+    },
+    {
+      "title": "Assessment",
+      "description": "This module contains a small exam. Pass the exam get the belt. Answers to all the questions are in the other modules.",
+      "course_id": "assessment"
+    }
+  ]
+}

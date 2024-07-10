@@ -1,0 +1,8 @@
+
+![Dan](../../assets/yellow-belt-devops-dojo/continuous-testing/dan.png) ![Tina](../../assets/yellow-belt-devops-dojo/continuous-testing/tina.png) ![Adam](../../assets/yellow-belt-devops-dojo/continuous-testing/adam.png) ![Paulo](../../assets/yellow-belt-devops-dojo/continuous-testing/paulo.png)
+
+**Previously**, Dan would test an implemented feature on his machine. Then once he was happy with the feature he would include it in the working build, which would be prepared nightly for QA/Testing. Tina would then manually test the implemented feature against pre-written test cases. If the tests passed and the implemented feature met the acceptance criteria for the story and it was considered to be potentially shippable code and would be included in the build for the sprint demo. Paulo would then be expected to confirm the story meets the definition of done during the sprint demo.
+
+**More recently** Dan's and Tina's teams working with Adam as part of the company's DevOps journey and in support of the 2nd DevOps way "Amplify Feedback Loops", have adopted a [TDD](https://en.wikipedia.org/wiki/Test-driven_development) approach as part of their process improvements to shorten and amplify feedback loops. This is to allow issues and necessary corrections to be identified and remediated as close to source as possible. To date they have been manually running the automated tests, they now want to take the next step in their DevOps journey by implementing **continuous testing**, where they execute their automated test suite on each and every commit to the source code management system. This will enable the developers get feedback on any failing tests when they commit code.
+
+This is **Continuous Testing - Test Automation**.

@@ -1,0 +1,3 @@
+# Codeowners file
+# syntax: https://docs.github.com/en/enterprise-server@2.22/github/creating-cloning-and-archiving-repositories/about-code-owners
+* @devops/katacoda-reviewers

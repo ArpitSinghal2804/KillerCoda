@@ -1,0 +1,55 @@
+{
+  "pathwayTitle": "DevOps Dojo Yellow Belt",
+  "title": "Assessment",
+  "private": true,
+  "description": "This module contains a small exam. Pass the exam get the belt. Answers to all the questions are in the other modules.",
+  "difficulty": "beginner",
+  "time": "30 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Register",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Assessment",
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {
+          "file": "assessment.py",
+          "target": "/root/",
+          "chmod": "+x"
+        },
+        {
+          "file": "assessment.sh",
+          "target": "/root/",
+          "chmod": "+x"
+        },
+        {
+          "file": "prereq.sh",
+          "target": "/root/",
+          "chmod": "+x"
+        }
+      ]
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": false,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYou can type in and run shell commands here.\r\n\u001b[m"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

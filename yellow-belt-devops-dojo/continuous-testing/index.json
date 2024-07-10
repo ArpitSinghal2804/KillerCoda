@@ -1,0 +1,69 @@
+{
+  "pathwayTitle": "DevOps Dojo Yellow Belt",
+  "title": "Continuous Testing",
+  "private": true,
+  "description": "Continuous Testing is the process of executing automated tests from a continuous integration/delivery pipeline to get feedback on quality of the software being built as rapidly as possible.",
+  "difficulty": "intermediate",
+  "time": "40 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Introduction",
+        "text": "step1.md"
+      },
+      {
+        "title": "Setup",
+        "text": "step2.md",
+        "verify": "step2-verify.sh"
+      },
+      {
+        "title": "Setup (continued)",
+        "text": "step3.md"
+      },
+      {
+        "title": "Automated test suite",
+        "text": "step4.md"
+      },
+      {
+        "title": "Add a test stage in the pipeline",
+        "text": "step5-nospell.md"
+      },
+      {
+        "title": "Step 6",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7",
+        "text": "step7.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "assets": {
+      "host01": [
+        { "file": "prepare.sh", "target": "/root/","chmod": "+x" },
+        { "file": "index.html", "target": "/root/nginx/" },
+        { "file": "github-issues.py", "target": "/root/","chmod": "+x" },
+        { "file": "github-issues.yaml", "target": "/root/" }
+      ]
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": false,
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboards": [
+      { "name": "GitHub", "port": 9876},
+      { "name": "Pet Clinic", "port": 9966}
+    ],
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYou can type in and run shell commands here.\r\n\u001b[m"
+  },
+  "backend": {
+    "imageid": "devopsdojo-jenkins-yb"
+
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "pathwayTitle": "DevOps Dojo Yellow Belt",
+  "title": "Test Driven Development",
+  "description": "The flow by which one start to create tests first, verify that they fail, then code to make them pass.",
+  "difficulty": "intermediate",
+  "private": true,
+  "time": "45 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Preparation",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Preparation - Jenkins",
+        "text": "step2.md"
+      },
+      {
+        "title": "Test Driven Development",
+        "text": "step3.md"
+      },
+      {
+        "title": "Add Test Case",
+        "text": "step4-nospell.md"
+      },
+      {
+        "title": "Add the Method",
+        "text": "step5-nospell.md"
+      },
+      {
+        "title": "Complete feature",
+        "text": "step6-nospell.md"
+      },
+      {
+        "title": "Change The Label",
+        "text": "step7-nospell.md"
+      },
+      {
+        "title": "Merging changes",
+        "text": "step8.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "assets": {
+      "host01": [
+        { "file": "prepare.sh", "target": "/root/","chmod": "+x" },
+        { "file": "index.html", "target": "/root/nginx/" },
+        { "file": "github-issues.py", "target": "/root/","chmod": "+x" },
+        { "file": "github-issues.yaml", "target": "/root/" }
+      ]
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": false,
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboards": [
+      { "name": "GitHub", "port": 9876},
+      { "name": "Pet Clinic", "port": 9966}
+    ],
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYou can type in and run shell commands here.\r\n\u001b[m"
+  },
+  "backend": {
+    "imageid": "devopsdojo-jenkins-yb"
+  }
+}

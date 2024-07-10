@@ -1,0 +1,4 @@
+---
+title: Find pet owners by first name
+body: "From **Paulo**:\r![](https://s3.amazonaws.com/devopsdojoassets/paulo.png)\r\r>**As a** product owner,\r**I want** to be able to find pet owners by their first name,\r**so that** veterinarians can show that they are closer to pet owners.\r\r**Acceptance criteria**: \r* When clicking 'Find Owners', one can find pet owners by first or last name"
+labels: [":bulb: user_story", "P1", "5"]
