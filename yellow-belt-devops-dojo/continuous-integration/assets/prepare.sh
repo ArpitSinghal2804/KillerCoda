@@ -2,7 +2,7 @@
 # Globals
 #
 GITHUB="github.dxc.com"
-DEBUG=false
+DEBUG=true
 COLQUESTION="\u001b[36m"
 COLINFO="\u001b[37m"
 COLLOGS="\u001b[35m"
